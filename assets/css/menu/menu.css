@@ -1,0 +1,25 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__header{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin: 1rem;
+}
+.menu__header__nombre{
+    margin-left: .5rem;
+}
+
+.menu__lista{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    font-weight: 500;
+}
+.menu__lista__item{
+    margin-left: 2.5rem;
+}

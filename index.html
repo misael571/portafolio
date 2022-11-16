@@ -5,24 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MI PORTAFOLIO</title>
-    <link rel="stylesheet" href="./assets/css/bases/_reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bases/base.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu.css">
 </head>
 <body>
     <section class="menu">
-        <header menu_header>
-            <img src="./assets/img/vector.png" alt="vector">
-            <h3>ERASMO MISAEL CUSSI</h3>
-            <nav>
-                <ul class="menu_lista">
-                    <li class="menu_list_item"><a href="#">Sobre MI</a></li>
-                    <li class="menu_list_item"><a href="#"></a>Skills</li>
-                    <li class="menu_list_item"><a href="#"></a>Hobbies</li>
-                    <li class="menu_list_item"><a href="#"></a>Formacíon</li>
-                    <li class="menu_list_item"><a href="#"></a>Proyectos</li>
-                    <li class="menu_list_item"><a href="#"></a>misael_571@hotmail.com</li>
-                </ul>
-            </nav>
+        <header class="menu__header">
+            <img class="vector" src="./assets/img/vector.png" alt="vector">
+            <h3 class="menu__header__nombre">ERASMO MISAEL CUSSI</h3>
         </header>
+        <nav>
+            <ul class="menu__lista">
+                <li class="menu__lista__item"><a href="#">Sobre MI</a></li>
+                <li class="menu__lista__item"><a href="#"></a>Skills</li>
+                <li class="menu__lista__item"><a href="#"></a>Hobbies</li>
+                <li class="menu__lista__item"><a href="#"></a>Formacíon</li>
+                <li class="menu__lista__item"><a href="#"></a>Proyectos</li>
+                <li class="menu__lista__item"><a href="#"></a>Contacto</li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="presentacion">
+        <div class="presentacion__bio">
+            <h2 class="presentacion__titulo">Hola mi nombre es Erasmo Misael Cussi</h2>
+            <h3 class="presentacion__extra">Actualmente estoy participando del proyecto Oracle One en Alura Latam</h3>
+            <ul class="presentacion__redes">
+                <li class="presentacion__redes__item"><a href="https://github.com/misael571" target="_blank">Github <img class="icon" src="./assets/img/arrow.png" alt=""></a></li>
+                <li class="presentacion__redes__item"><a href="https://www.linkedin.com/in/erasmo-cussi-bb0a1b248/" target="_blank">Linkedin <img class="icon" src="./assets/img/arrow.png" alt=""></a></li>
+            </ul>
+        </div>
+        <img class="presentacion__imagen__perfil" src="./assets/img/profile3.jpg" alt="Foto de perfil">
     </section>
     
 </body>

@@ -1,0 +1,44 @@
+.presentacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+    justify-content: space-between;
+    padding: 0 8rem 0 8rem;
+}
+.presentacion__bio{
+    width: 60%;
+}
+.presentacion__titulo{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+}
+.presentacion__extra{
+    margin-top: 2rem;
+    font-family: var(--font-family-secundaría);
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.presentacion__redes{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.presentacion__redes__item{
+    font-size: 18px;
+    margin-right: 2rem;
+}
+
+.icon{
+    width: 14px;
+    height: 14px;
+}
+
+.presentacion__imagen__perfil{
+    width: 380px;
+    height: 380px;
+    border-radius:  65% 65% 65% 65% 
+}

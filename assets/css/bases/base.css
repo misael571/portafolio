@@ -5,51 +5,34 @@ body{
     box-sizing: border-box;
     font-family: var(--font-family-principal);
     background-color: var(--background--body);
-    padding-left: 8rem;
-    padding-right: 8rem;
+    margin: 0;
+    padding: 0;
 }
 
-.presentacion{
+.sobre__mi{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2.5rem;
-    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100vw;
+    position: absolute;
+    background-color: var(--background--secundario);
+    padding: 4rem 8rem 4rem 8rem;
 }
-.presentacion__bio{
+
+.sobre__mi__container{
     width: 60%;
 }
-.presentacion__titulo{
+
+.sobre__mi__titulo{
+    
     font-weight: 700;
-    font-size: 52px;
-    line-height: 55px;
-}
-.presentacion__extra{
-    margin-top: 2rem;
-    font-family: var(--font-family-secundaría);
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 35px;
+    line-height: 38px;
 }
 
-.presentacion__redes{
-    display: flex;
-    align-items: center;
-    margin-top: 1rem;
-}
-
-.presentacion__redes__item{
-    font-size: 18px;
-    margin-right: 2rem;
-}
-
-.icon{
-    width: 14px;
-    height: 14px;
-}
-
-.presentacion__imagen__perfil{
-    width: 380px;
-    height: 380px;
-    border-radius:  65% 65% 65% 65% 
+.sobre__mi__desarrollo{
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 1.5rem;
 }
 

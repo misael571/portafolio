@@ -1,8 +1,9 @@
 :root {
     --font-family-principal:'Open Sans', sans-serif;
-    --font-family-secundaría:'Montserrat', sans-serif;
+    --font-family-secundaría:'Noto Sans', sans-serif;
 
     --background--body: #ABA6B3;
+    --background--secundario: #C4BBCF;
 
 
     --color-fuente: #323134;

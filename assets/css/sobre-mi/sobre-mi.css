@@ -1,0 +1,25 @@
+.sobre__mi{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100vw;
+    background-color: var(--background--secundario);
+    padding: 4rem 8rem 4rem 8rem;
+}
+
+.sobre__mi__container{
+    width: 60%;
+}
+
+.sobre__mi__titulo{
+    
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 38px;
+}
+
+.sobre__mi__desarrollo{
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 1.5rem;
+}

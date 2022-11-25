@@ -1,0 +1,42 @@
+.formacion{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    padding: 0 8rem 0 8rem;
+}
+.formacion__titulo{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.formacion__general{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3.5rem;
+    justify-content: space-between;
+}
+
+.formacion_curso__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    background: var(--background--box);
+    padding: 1rem;
+    margin-bottom: 3.5rem;
+}
+
+.formacion__curso__img{
+    width: 300px;
+    height: 200px;
+    
+}
+
+.Formacion__curso__titulo{
+    margin-top: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
